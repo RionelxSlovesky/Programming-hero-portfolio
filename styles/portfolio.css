@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* header and nav styles */
+header {
+    position: relative;
+    top: -50px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.drop-down{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.drop-down ul {
+    display: flex;
+}
+
+.drop-down li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+
+/* button */
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 5px 10px;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #FD6E0A;
+}
